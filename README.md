@@ -1,4 +1,4 @@
-# C Path 1337
+# 42 C track
 
 A structured archive of my progress in C programming and problem-solving, built to
  strengthen my fundamentals for future challenges including 1337.
