@@ -23,8 +23,9 @@ This project was created to practice the fundamental concepts of the C programmi
 ---
 ## ▶ Outputs of the programs
 <img width="352" height="251" alt="image" src="https://github.com/user-attachments/assets/8a1799bc-f341-4533-a15d-b413e0133c95" />
----
+
 <img width="350" height="211" alt="image" src="https://github.com/user-attachments/assets/b645890e-501b-46ec-95c1-5d786632e946" />
+
 
 
 
