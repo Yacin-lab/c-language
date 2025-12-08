@@ -8,8 +8,8 @@ LEARNING C PROGRAMMING: 1. Basics
 				✔️• Use printf and scanf.
 				✔️• Project for Chapter.
 	-------------------------------------------------------------------------------------------------------------------	
-	🔻 C Program Structure:
-	---
+🔻 C Program Structure:
+---
 		- Header File is in Compiler Path:		#include <filename.h>
 		- Header File is in Project Directory:		#include "filename.h"
 			 header file <= just prototypes
