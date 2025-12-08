@@ -1,8 +1,9 @@
 
-	##ROADMAP TO LEARNING C PROGRAMMING
+##ROADMAP TO LEARNING C PROGRAMMING
 ---
 	
-	##1. Basics:
+1. Basics:
+---
 				✔️• Learn syntax, compilation, variables, types, operators.
 				✔️• Use printf and scanf.
 				✔️• Project for Chapter.
