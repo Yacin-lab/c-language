@@ -1,9 +1,6 @@
 
-LEARNING C PROGRAMMING: 1. Basics
+1. BASICS
 ---
-	
-	
-
 				✔️• Learn syntax, compilation, variables, types, operators.
 				✔️• Use printf and scanf.
 				✔️• Project for Chapter.
@@ -62,8 +59,6 @@ LEARNING C PROGRAMMING: 1. Basics
 					
 					🔥​ unsigned, removes negative values and doubles the positive range.
 					
-					🔥​ typecasting,	exp: (int x, y)	float result = (float)x / y
-					
 					🔥​ enum,	Let you create your own list of constants
 						enum Lett {A, B, C};		==> A = 0,	B = 1,	C = 2;
 						 I can change the values par default
@@ -116,6 +111,14 @@ LEARNING C PROGRAMMING: 1. Basics
 				0 → stdin       (keyboard)
 				1 → stdout      (the screen)
 				2 → stderr      (the screen)
-				Separating input, output, and errors makes programs more flexible and easier to debug.			
+				Separating input, output, and errors makes programs more flexible and easier to debug.
+🔻 Arithmetic in C:
+---
+		Arithmetic operators perform basic math. Integer division drops decimals.
+		
+		- Arithmetic operators:	+ add,	- subtract,	* multiply,	/ divide,	% modulo (rest)
+			
+		- Typecasting:	explicit conversion example,	float x = (float)5 / 2;		// output,  2.5
+
 ✔️ Projects_00	→	calculator
 ---
