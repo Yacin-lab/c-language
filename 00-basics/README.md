@@ -6,7 +6,7 @@ BASICS
 				✔️• Project for Chapter.
 🔻 C Program Structure:
 ---
-		- Header File is in Compiler Path:			  #include <filename.h>
+		- Header File is in Compiler Path:			#include <filename.h>
 		- Header File is in Project Directory:		#include "filename.h"
 			 header file <= just prototypes
 										  
@@ -22,13 +22,13 @@ BASICS
 🔻 Compiling a C program:
 ---
 		⚠️​ There are four phases for a C program to become an executable:
-			- Pre-processing 		→Preprocessing expands macros and includes header files.
+			- Pre-processing		→Preprocessing expands macros and includes header files.
       
-			- Compilation			  →Compilation generates assembly code from your C source file.
+			- Compilation			→Compilation generates assembly code from your C source file.
 									                      (main.c → main.s)
-			- Assembly				  →The assembler converts assembly code into machine code.
+			- Assembly				→The assembler converts assembly code into machine code.
 									                      (main.s → main.o)
-			- Linking				    →Linking combines all object files and libraries into the final executable.	
+			- Linking				→Linking combines all object files and libraries into the final executable.	
 									                (main.o + printf.o + other libs → a.out)
 												
 		Compilation takes your C code, preprocesses it, checks it,
@@ -36,32 +36,32 @@ BASICS
 		(compiler like gcc)	gcc = GNU Compiler Collection
 🔻 Primary Data Types:
 ---
-		Fundamental Types:    	-Integer		-Floating		-Character
-		Derived Types:			    -Arrays		  -Pointers		-Structures		-Enums
+		Fundamental Types:		-Integer		-Floating		-Character
+		Derived Types:			-Arrays			-Pointers		-Structures		-Enums
 
 	Data types define what kind of data a variable can store, how much memory it uses, and what
 	operations are allowed.
-		Constants:	#define PI 3.14		<-- #define creates a constant by replacing text before compilation.
+		Constants:	#define PI 3.14			<-- #define creates a constant by replacing text before compilation.
 										                        (no type, no checked by compiler)
-					const int SIZE = 10;	  <-- const creates a typed constant that cannot be changed.
+					const int SIZE = 10;	<-- const creates a typed constant that cannot be changed.
 										                                  (read-only)
 		Data Types:
-          int				    4bytes
-					short			    2bytes
-					long			    8bytes		
+          			int4			bytes
+					short			2bytes
+					long			8bytes		
 					
-					float			    4bytes
-					double		  	8bytes	(double offers higher precision than float)
+					float			4bytes
+					double			8bytes	(double offers higher precision than float)
 					long double		12byte	(long double provides even more precision)	
 					
-					char			    1byte	(max 127 = 1byte)
+					char			1byte	(max 127 = 1byte)
 					string		    A C-string is an array of chars ending with a null terminator.
 					Pointer		    A pointer stores the memory address of another variable.
 					
 					🔥​ unsigned, removes negative values and doubles the positive range.
 					
 					🔥​ enum,	Let you create your own list of constants
-						enum Lett {A, B, C};		==> A = 0,	B = 1,	C = 2;
+						enum Lett {A, B, C};			==> A = 0,	B = 1,	C = 2;
 						 I can change the values par default
 						enum Lett {A = 4, B, C = 9};	==> B = A + 1
 					
@@ -91,7 +91,7 @@ BASICS
 		I/O functions allow a C program to read input and print output.
 		
 		- We have two I/O Libraries in C:
-			<stdio.h>		  👈​ high-level I/O
+			<stdio.h>		👈​ high-level I/O
 				printf();  scanf();  putchar();  getchar();  puts(); (Print a String with a Newline)
 				fgets();
 
