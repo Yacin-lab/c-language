@@ -2,5 +2,5 @@
 
 Click below to open the project:
 
-➡️ **[Open the project](Yacin-lab/ATM-Project)**  
+➡️ **[Open the project](./ATM-Project)**  
 
