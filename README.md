@@ -26,17 +26,17 @@ Manual string manipulation functions similar to 42 style.
 ### `/06-structures`
 Introduction to struct usage and data organization.
 
-### `/projects`
-Small practical C projects applying the concepts learned.
-
 ### `/algorithms`
-Algorithm practice organized into levels (Level-0, Level-1, Level-2…).
+Algorithm practice organized into levels.
 
-### `/exercises`
-Daily micro-exercises to strengthen fundamentals:
+### `/exercism`
+Micro-exercises to strengthen fundamentals:
 - Pointers  
 - Strings  
-- Memory management  
+- Memory management
+
+### `/mini-projects`
+Small practical C projects applying the concepts learned.
 
 ### `/templates`
 Reusable templates:
