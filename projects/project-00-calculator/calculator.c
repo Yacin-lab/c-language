@@ -20,9 +20,9 @@ int		main(void)
                 continue;
         if(!valide || (choice > 4 || choice < 0))
         {
-                while(getchar() != '\n');
-                printf("Invalid input\n\n");
-                continue;
+            while(getchar() != '\n');
+            printf("Invalid input\n\n");
+            continue;
         }
         printf("Enter two numbers: ");
         scanf("%f %f", &a, &b);
@@ -34,8 +34,8 @@ int		main(void)
             case 4:
                     if(b == 0)
                     {
-                            printf("Error! division by zero\n\n");
-                            continue;
+                        printf("Error! division by zero\n\n");
+                        continue;
                     }
                     result = ft_Div(a, b); break;
             default:
