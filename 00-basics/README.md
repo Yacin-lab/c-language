@@ -1,5 +1,5 @@
 
-1. BASICS
+BASICS
 ---
 				✔️• Learn syntax, compilation, variables, types, operators.
 				✔️• Use printf and scanf.
