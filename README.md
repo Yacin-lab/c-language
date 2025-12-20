@@ -14,16 +14,13 @@ Each main folder focuses on a specific core area of C, with examples, exercises,
 ### `/02-functions`
     Function creation, parameters, return values, and modular code structure.
 
-### `/03-arrays`
+### `/03-arrays-&-strings`
     One-dimensional and multi-dimensional arrays, basic searching and sorting.
 
 ### `/04-pointers`
     Pointer fundamentals, pointer arithmetic, memory access, and applications.
 
-### `/05-strings`
-    Manual string manipulation functions similar to 42 style.
-
-### `/06-structures`
+### `/05-structures`
     Introduction to struct usage and data organization.
 
 ### `/Algorithms_Logic`
