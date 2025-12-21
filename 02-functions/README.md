@@ -18,16 +18,18 @@ int add(int a, int b);
 The real implementation of the function.
 
 Example:
-int add(int a, int b) {
-    return a + b;
-}
+
+    int add(int a, int b) {
+        return a + b;
+    }
 
 ## Arguments and Return
 - Arguments: values passed to the function
 - Return: value sent back by the function
 
 Example:
-int result = add(2, 3);
+
+    int result = add(2, 3);
 
 ## Scope
 - Local variables exist only inside the function
@@ -37,11 +39,12 @@ int result = add(2, 3);
 A function that calls itself.
 
 Example:
-int factorial(int n) {
-    if (n == 0)
-        return 1;
-    return n * factorial(n - 1);
-}
+
+    int factorial(int n) {
+        if (n == 0)
+            return 1;
+        return n * factorial(n - 1);
+    }
 
 ## Why Functions Matter
 - Avoid code repetition
