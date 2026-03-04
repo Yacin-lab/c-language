@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int findMinElement(int arr[], int size) {
-	int minValue = arr[0];
+	int minValue = arr[i];
 	for(int i = 0; i < size; i++) {
 		if(arr[i] < minValue)
 			minValue = arr[i];
