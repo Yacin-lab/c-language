@@ -16,20 +16,20 @@ void insertion_sort(int *arr, int size) {
 
 int two_sum_sorted(int *arr, int size, int target) {
     int sum = 0;
-    int i, j;
+    int left, right;
 
     insertion_sort(arr, size);
 
-    i = 0;
-    j = size - 1;
-    while(i < j) {
-        sum = arr[i] + arr[j];
+    left = 0;
+    right = size - 1;
+    while(left < right) {
+        sum = arr[left] + arr[right];
         if(sum == target)
             return (1);
         else if(sum < target)
-            i++;
+            left++;
         else
-            j--;
+            right--;
     }
     return (0);
 }
