@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*
+    Idea:
+    The union uses the same memory for all fields.
+*/
 union Data
 {
     int i;
