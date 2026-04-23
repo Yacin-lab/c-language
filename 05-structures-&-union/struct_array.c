@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*
+    Idea:
+    A struct groups different variables into one type.
+*/
 struct Student
 {
     char name[50];
