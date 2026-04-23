@@ -28,7 +28,7 @@ int ft_strncmp(char *s1, char *s2, int n) {
 //         s2++;
 //         n--;
 //     }
-//     return *s1 - *s2;
+//     return (unsigned char)*s1 - (unsigned char)*s2);
 // }
 
 int main(void) {
