@@ -1,2 +1,2 @@
 ## Check out my other exercism:
-[My Other Repo](https://github.com/Yacin-lab/dsa-leetcode-practice)
+[Other Repo](https://github.com/Yacin-lab/dsa-leetcode-practice)
