@@ -1,0 +1,22 @@
+# Compiled files
+*.out
+*.exe
+*.o
+*.a
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+
+# Environment variables
+.env
+.env.local
