@@ -2,7 +2,7 @@
 
 /*
     Idea:
-    A struct groups different variables into one type.
+    Using an array of structs.
 */
 struct Student
 {
