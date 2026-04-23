@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*
+    Idea:
+    Passing struct as an argument.
+*/
 struct Point
 {
     int x;
