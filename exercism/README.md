@@ -1,2 +1,3 @@
 ## Check out my other exercism:
-[Other Repo](https://github.com/Yacin-lab/dsa-leetcode-practice)
+[Leetcode](https://github.com/Yacin-lab/dsa-leetcode-practice)
+[Style 42](https://github.com/Yacin-lab/problems-solving)
