@@ -3,7 +3,7 @@
 
 #include <stdbool.h>
 
-#define MAX_SIZE 10000
+#define MAX_SIZE 20
 #define DATA_TYPE char
 
 typedef struct {
