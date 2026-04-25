@@ -1,15 +1,16 @@
 CC = gcc
-CFLAGS = -Wall -g
-OBJ = main.o stack.o
+CFLAGS = -Wall -Iinclude
+SRC = src/stack.c src/main.c
+OBJ = $(SRC:.c=.o)
 TARGET = stack_app
 
 all: $(TARGET)
 
 $(TARGET): $(OBJ)
-	$(CC) $(CFLAGS) -o $(TARGET) $(OBJ)
+	$(CC) $(OBJ) -o $(TARGET)
 
-%.o: %.c stack.h
-	$(CC) $(CFLAGS) -c $<
+%.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	rm -f *.o $(TARGET)
+	rm -f src/*.o $(TARGET)
