@@ -78,35 +78,34 @@ int main(void) {
   return (0);
 }
 // -----------------------------------------------------------------------------------------
-/*
-/*
-  had tari9a kan3yat 3la malloc just 2calls blast (n + 1 calls)
-  w katkon all elemennts dakhl block wa7d contiguous blast (rows mfar9in f memory)
-*/
-int **allocate_matrix(int rows, int cols) {
-  // int arr[r][c]  → contiguous memory !=
-  // int **arr      → array of pointers
-  int **matrix;
-  int *data;
 
-  // allocate array of row pointers
-  matrix = (int **)malloc(rows * sizeof(int *));
-  if (!matrix)
-    return NULL;
+// /*
+//   had tari9a kan3yat 3la malloc just 2calls blast (n + 1 calls)
+//   w katkon all elemennts dakhl block wa7d contiguous blast (rows mfar9in f memory)
+// */
+// int **allocate_matrix(int rows, int cols) {
+//   // int arr[r][c]  → contiguous memory !=
+//   // int **arr      → array of pointers
+//   int **matrix;
+//   int *data;
 
-  // allocate ONE contiguous block for all elements
-  data = (int *)malloc(rows * cols * sizeof(int));
-  if (!data) {
-    free(matrix);
-    return NULL;
-  }
+//   // allocate array of row pointers
+//   matrix = (int **)malloc(rows * sizeof(int *));
+//   if (!matrix)
+//     return NULL;
 
-  // make each row pointer point inside the big block
-  for(int i = 0; i < rows; i++)
-    matrix[i] = data + cols*i;
+//   // allocate ONE contiguous block for all elements
+//   data = (int *)malloc(rows * cols * sizeof(int));
+//   if (!data) {
+//     free(matrix);
+//     return NULL;
+//   }
 
-  return (matrix);
-}
-// free(data); or free(matrix[0]);
-// free(matrix);
-*/
+//   // make each row pointer point inside the big block
+//   for(int i = 0; i < rows; i++)
+//     matrix[i] = data + cols*i;
+
+//   return (matrix);
+// }
+// // free(data); or free(matrix[0]);
+// // free(matrix);
