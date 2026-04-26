@@ -77,9 +77,12 @@ int main(void) {
   
   return (0);
 }
------------------------------------------------------------------------------------------
-// had tari9a kan3yat 3la malloc just 2calls blast (n + 1 calls)
-// w katkon all elemennts dakhl block wa7d contiguous blast (rows mfar9in f memory)
+// -----------------------------------------------------------------------------------------
+/*
+/*
+  had tari9a kan3yat 3la malloc just 2calls blast (n + 1 calls)
+  w katkon all elemennts dakhl block wa7d contiguous blast (rows mfar9in f memory)
+*/
 int **allocate_matrix(int rows, int cols) {
   // int arr[r][c]  → contiguous memory !=
   // int **arr      → array of pointers
@@ -106,3 +109,4 @@ int **allocate_matrix(int rows, int cols) {
 }
 // free(data); or free(matrix[0]);
 // free(matrix);
+*/

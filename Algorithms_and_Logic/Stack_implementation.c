@@ -61,9 +61,9 @@ int     main(void) {
     for (int i = 0; i <= 6; i++) { 
         
         if (pop(&popValue, &s))
-            printf("Poped %c successfully\n", popValue);
-        else
             printf("\n> Stack is Empty <\n");
+        else
+            printf("Poped %c successfully\n", popValue);
     }
 /* -------------------------------SIZE-------------------------------- */
     printf("\nSize of elements in stack: %d\n", StackSize(&s));
@@ -103,10 +103,10 @@ int     Push(DATA_TYPE value, Stack *ptr_s) {
 DATA_TYPE     pop(DATA_TYPE *ptr_element, Stack *ptr_s) {
 
     if (IsEmpty(ptr_s))
-        return (0);
+        return (1);
     *ptr_element = ptr_s->data[ptr_s->top];
     ptr_s->top--;
-    return (1);
+    return (0);
 }
 
 DATA_TYPE     Peek(Stack *ptr_s) {
