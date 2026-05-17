@@ -21,6 +21,5 @@ This repository contains my journey learning the C programming language, low-lev
 
 ## Each chapter contains:
 - Notes
-- Exercises
-- Small projects
 - Resources
+- Simple application programs for concepts
