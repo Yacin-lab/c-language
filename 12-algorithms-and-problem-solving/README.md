@@ -13,8 +13,8 @@ backtracking patterns
 
 ## Struct dyal folder 
 ```
-├── README.md  (fih chno kayn fhad folder en general)
-├── notes/     (fiha notes dyal chaptre, bugs li l9it ...)
-├── resources.md (fih videos doc artc ... manch t3lemt)
-├── folders     (fiha examples bsita lkola concept)
+├── README.md               (fih chno kayn fhad folder en general)
+├── notes/                  (fiha notes dyal chaptre, bugs li l9it, char7 dyal conceptes ...)
+├── patterns                (Ready-made thinking templates)
+└── implementations/        (fiha examples bsita lkola algo)
 ```

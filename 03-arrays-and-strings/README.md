@@ -1,3 +1,38 @@
+## chno khasni n3rf fhad chapter
+```
+03-arrays-and-strings
+one-dimensional arrays
+two-dimensional arrays
+char arrays
+strings
+null terminator
+string traversal
+array traversal
+searching
+sorting basics
+copying arrays
+string manipulation
+buffer basics
+```
+
+## Struct dyal folder 
+```
+├── README.md       (fih chno kayn fhad folder en general)
+├── notes.md        (fiha notes dyal chaptre, bugs li l9it ...)
+├── resources.md    (fih videos doc artc ... manch t3lemt)
+├── examples/       (fiha examples bsita lkola concept)
+└── exercises/      (exercice fhad chapter)
+```
+
+---
+
+
+---
+---
+
+
+---
+
 # Arrays & Strings (C)
 
 Small C programs to practice **arrays, searching, sorting, and matrices**.

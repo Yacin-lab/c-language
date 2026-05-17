@@ -22,4 +22,9 @@ This repository contains my journey learning the C programming language, low-lev
 ## Each chapter contains:
 - Notes
 - Resources
+<<<<<<< HEAD
 - Simple application programs for concepts
+=======
+- Simple application programs for concepts
+
+>>>>>>> 656289eafe5eb0116943a6fb96d561b44ba7941d
