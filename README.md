@@ -1,48 +1,176 @@
-C Learning – Structured Roadmap
+## Chno khasni fkola folder
+> 9ad had folders fkola chapter
+README.md
+notes/
+exercises/
+projects/
+resources.md
+
+06-memory-allocation
+malloc
+free
+calloc
+realloc
+memory leaks
+heap vs stack
+dynamic arrays
+memory ownership
+
+07-recursion
+recursive thinking
+base case
+recursive case
+call stack
+backtracking basics
+divide and conquer
+
+08-function-pointers
+callbacks
+passing functions
+array of functions
+dispatch tables
+mini interpreters
+sorting callbacks
+
+09-file-descriptors-and-io
+open
+read
+write
+close
+dup
+dup2
+pipe
+stdin/stdout/stderr
+redirections
+buffering basics
+
+10-linked-lists
+singly linked list
+doubly linked list
+insert/delete/traverse
+sorting lists
+linked list algorithms
+
+11-bitwise-operations
+&
+|
+^
+~
+<<
+>>
+flags
+bit masks
+binary manipulation
+permissions representation
+
+12-algorithms-and-problem-solving
+sorting
+searching
+time complexity
+space complexity
+patterns
+greedy basics
+recursion patterns
+backtracking patterns
+
+13-data-structures
+stack
+queue
+deque
+hash table basics
+tree basics
+binary tree traversal
+priority queue basics
+
+14-system-programming
+processes
+fork
+execve
+wait
+signals
+pipes
+environment variables
+process communication
+unix philosophy
+
+15-mini-projects
+small real programs
+parser
+mini shell pieces
+games
+utilities
+log analyzer
+mini grep
+mini cat
+calculator
+text tools
+
+16-networking-basics
+sockets
+TCP/IP basics
+client/server model
+bind
+listen
+accept
+send/recv
+HTTP basics
+simple web server
+simple chat server
+
+17-concurrency-basics
+threads
+mutex
+race conditions
+deadlocks
+parallelism
+synchronization
+producer-consumer
+thread safety basics
+
+18-build-tools-and-makefiles
+make
+Makefile
+targets
+dependencies
+compiler flags
+static libraries
+shared libraries basics
+project compilation automation
+
+19-debugging-and-profiling
+gdb
+valgrind
+strace
+ltrace
+debug symbols
+segmentation fault debugging
+memory debugging
+performance bottlenecks
+profiling basics
 ---
+# C Programming Journey
 
-This repository contains my organized learning path for the C programming language.
-Each main folder focuses on a specific core area of C, with examples, exercises, and small applied projects.
+This repository contains my journey learning the C programming language, low-level programming, problem solving, and system programming.
 
-📁 Structure Overview
-### `/00-basics`
-    Foundations of C programming: variables, operators, and basic input/output.
+## 🎯​ Goal:
+- Build strong C fundamentals
+- Understand how memory and programs work
+- Improve problem-solving skills
+- Learn low-level and Unix programming
+- Develop real programming projects
 
-### `/01-control-flow`
-    Conditional statements, loops, and small programs to build logical thinking.
+## Topics:
+- Memory management
+- Pointers
+- Data structures
+- Algorithms
+- System programming
+- Networking
+- Debugging
+- Mini projects
 
-### `/02-functions`
-    Function creation, parameters, return values, and modular code structure.
-
-### `/03-arrays-&-strings`
-    One-dimensional and multi-dimensional arrays, basic searching and sorting.
-
-### `/04-pointers`
-    Pointer fundamentals, pointer arithmetic, memory access, and applications.
-
-### `/05-structures`
-    Introduction to struct usage and data organization.
-
-### `/Algorithms`
-    Algorithm practice organized into levels.
-
-### `/exercism`
-    Micro-exercises to strengthen fundamentals:
-    - Pointers  
-    - Strings  
-    - Memory management
-
-### `/mini-projects`
-    Small practical C projects applying the concepts learned.
-
-### `/templates`
-    Reusable templates:
-    - Makefile  
-    - starter.c  
-    - Project folder structure  
-
----
-
-## 🎯​ Goals
-- Master C fundamentals  
-- Improve problem-solving 
+## Each chapter contains:
+- Notes
+- Exercises
+- Small projects
+- Resources
