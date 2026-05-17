@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Sum of digits in array
+// Sum of elements in array
 int ft_sum(int *arr, int size) {
     
     if(!size)
