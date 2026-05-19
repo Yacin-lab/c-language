@@ -16,7 +16,7 @@ structure initialization
 ## Struct dyal folder 
 ```
 ├── README.md       (fih chno kayn fhad folder en general)
-├── notes.md        (fiha notes dyal chaptre, bugs li l9it ...)
+├── notes.md        (fiha notes dyal chaptre, bugs li l9it ...) (dkhal had notes dakl concepts.md (pattern) li ghadir fkola exp)
 ├── resources.md    (fih videos doc artc ... manch t3lemt)
 ├── examples/       (fiha examples bsita lkola concept)
 └── exercises/      (exercice fhad chapter)
