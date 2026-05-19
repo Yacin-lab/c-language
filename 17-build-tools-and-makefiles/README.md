@@ -21,3 +21,36 @@ project compilation automation
 ├── examples/       (fiha examples bsita lkola concept)
 └── exercises/      (exercice fhad chapter)
 ```
+---
+---
+---
+# Build Tools and Makefiles
+
+## Core Concepts
+
+- make
+- Makefile
+- targets
+- rules
+- dependencies
+- compiler
+- compiler flags
+- variables
+- automatic variables
+- wildcards
+- object files
+- static libraries
+- shared libraries basics
+- relinking
+- incremental builds
+- project compilation automation
+- archive tools (ar, ranlib)
+- clean builds
+- phony targets
+- dependency graphs
+- build pipelines
+- header dependencies
+- linking
+- separate compilation
+
+---
