@@ -1,6 +1,16 @@
 ## Bhal had concepts li that hna 
 ```
-├── _______.md
+struct basics
+union basics
+typedef
+nested structs
+array of structs
+pointer to struct
+linked data representation
+memory layout basics
+structure passing
+structure initialization
+*.md
 ```
 each pattern:
 
