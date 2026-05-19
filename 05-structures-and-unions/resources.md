@@ -7,4 +7,4 @@
 - `Stack in C:` https://www.geeksforgeeks.org/c/implement-stack-in-c/
 
 ## Books
-`Computer Systems:` A Programmer’s Perspective
+* `Computer Systems:` A Programmer’s Perspective
