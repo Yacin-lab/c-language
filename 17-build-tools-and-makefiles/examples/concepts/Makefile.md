@@ -1,4 +1,5 @@
 # Makefile
+Special file containing build rules for make.
 
 ## make
 Build automation tool that executes commands based on rules and file changes.
