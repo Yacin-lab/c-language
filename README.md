@@ -1,48 +1,26 @@
-C Learning – Structured Roadmap
----
+# C Programming Journey
 
-This repository contains my organized learning path for the C programming language.
-Each main folder focuses on a specific core area of C, with examples, exercises, and small applied projects.
+This repository contains my journey learning the C programming language, low-level programming, problem solving, and system programming.
 
-📁 Structure Overview
-### `/00-basics`
-    Foundations of C programming: variables, operators, and basic input/output.
+## 🎯​ Goal:
+- Build strong C fundamentals
+- Understand how memory and programs work
+- Improve problem-solving skills
+- Learn low-level and Unix programming
+- Develop real programming projects
 
-### `/01-control-flow`
-    Conditional statements, loops, and small programs to build logical thinking.
+## Topics:
+- Memory management
+- Pointers
+- Data structures
+- Algorithms
+- System programming
+- Networking
+- Debugging
+- Mini projects
 
-### `/02-functions`
-    Function creation, parameters, return values, and modular code structure.
+## Each chapter contains:
+- Notes
+- Resources
+- Simple application programs for concepts
 
-### `/03-arrays-&-strings`
-    One-dimensional and multi-dimensional arrays, basic searching and sorting.
-
-### `/04-pointers`
-    Pointer fundamentals, pointer arithmetic, memory access, and applications.
-
-### `/05-structures`
-    Introduction to struct usage and data organization.
-
-### `/Algorithms`
-    Algorithm practice organized into levels.
-
-### `/exercism`
-    Micro-exercises to strengthen fundamentals:
-    - Pointers  
-    - Strings  
-    - Memory management
-
-### `/mini-projects`
-    Small practical C projects applying the concepts learned.
-
-### `/templates`
-    Reusable templates:
-    - Makefile  
-    - starter.c  
-    - Project folder structure  
-
----
-
-## 🎯​ Goals
-- Master C fundamentals  
-- Improve problem-solving 

@@ -1,0 +1,74 @@
+
+# BASICS
+---
+				✔️• Learn syntax, compilation, variables, types, operators.
+				✔️• Use printf and scanf.
+---
+`Basic Types (from C Programming: A Modern Approach)`
+
+### What are Basic Types in C
+```
+In C, every variable has a type, which decides:
+	how much memory it uses,
+	and what kind of data it stores.
+
+The main types:
+	int			2 or 4 bytes
+	float			4 bytes
+	double		8 bytes
+	char			1 byte
+	bool			1 byte
+	void			--------
+	NOTE:	1 octet = 1 Byte
+				("%zu", sizeof(int)) Tells you how many bytes a type uses
+	
+Type modifiers:
+	You can modify integer types
+	short			smaller int
+	long				larger int
+	unsigned		only positive numbers
+	
+Constants and Suffixes:
+	C understands number endings (suffixes)
+	123U			unsigned int
+	123L			long
+	3.14F			float
+	3.14				double (default)
+	
+Character and ASCII:
+	char holds one symbol, but really stores a number (ASCII code).
+	Example:		char c = 'A'		// value = 65
+	
+Overflow and precision:
+	Each type has a limit.
+	Example:		char c = 130		 // overflow! (max 127 = 1byte)
+	it wraps around (becomes negative)
+	
+Type conversion (typecasting):
+	Convert one type to another
+	int x = 5,	 y = 2
+	float result = (float)x / y		 // 2.5 not 2 (At least one end must be float, x or y)
+	
+Enumerations (enum):
+	Let you create your own list of constants
+	enum Day { MON, TUE, WED, THU, FRI };
+		now: MON = 0	TUE = 1	WED = 2	...
+	enum Day today = WED;		// replace int today = 2;
+	
+	I can change the values par default
+	enum Level { LOW = 1, MEDIUM = 5, HIGH = 10 };
+	
+	NOTE:	enum Test { A = 10, B, C = 20, D };
+				// output: A = 10		B = A + 1		C = 20		D = 21
+	
+	Where do I need enum?
+		- menu choices
+		- states (ready, loading, error…)
+		- difficulty levels
+		- days / months
+		- modes (ON/OFF, TRUE/FALSE)
+		- help you in switch
+		Example:
+			enum State { LOADING, READY, ERROR };
+			enum Drink { ESPRESSO = 1, LATTE = 2, TEA = 3 };
+```
